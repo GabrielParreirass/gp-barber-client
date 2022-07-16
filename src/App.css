@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(212, 212, 212)
+}
+img{
+    height:100px
+}
+
+a{
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-area {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+}
+.intro{
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro p{
+    font-size:20px;
+    font-weight: 100;
+    margin-top:50px;
+}
+
+.intro span{
+    text-decoration: underline;	
+    cursor: pointer;
+}
+
+.form-area form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-area form input,button{
+    padding: 10px;
+    margin-bottom:15px;
+    border: none;
+    border-radius:3px;
+}
+
+.form-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.logo{
+    background-color:#0f638a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(
+        0% 0%, 100% 0%, 100% 100%, 15% 100%
+
+    );
+}
+
+@media only screen and (max-width: 500px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:center;
+        align-items:center;
+    }
+    .logo{
+        background-color:#0f638a;;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        clip-path: none;
+        margin-bottom: 5em;
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 85%);;
+    }
+    .intro{
+        padding: 0;
+        margin: 2em;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+}

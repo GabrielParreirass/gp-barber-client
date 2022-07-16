@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.663fddc7.css",
+    "main.js": "/static/js/main.fc37dee1.js",
+    "static/media/pomada-para-cabelo.jpg": "/static/media/pomada-para-cabelo.3c8cd09dbf29c101aa7e.jpg",
+    "static/media/shampoo.jpg": "/static/media/shampoo.aeb344b4f7b3e74dc379.jpg",
+    "static/media/tesoura.jpg": "/static/media/tesoura.c1132b006467d7131bbb.jpg",
+    "static/media/beard.svg": "/static/media/beard.e21e1883728b2439cead469d630808da.svg",
+    "static/media/cart.svg": "/static/media/cart.3124b5b1df69e0fd5a1d161e33888711.svg",
+    "index.html": "/index.html",
+    "main.663fddc7.css.map": "/static/css/main.663fddc7.css.map",
+    "main.fc37dee1.js.map": "/static/js/main.fc37dee1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.663fddc7.css",
+    "static/js/main.fc37dee1.js"
+  ]
+}

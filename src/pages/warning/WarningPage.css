@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.error-body{
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div-error{
+    background-color: rgba(218, 112, 112, 0.555);
+    height: 50vh;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    box-shadow: 3px 3px 5px grey;
+}

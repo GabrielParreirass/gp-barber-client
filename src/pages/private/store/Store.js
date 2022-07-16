@@ -54,7 +54,7 @@ function Store() {
                             <div>
                                 <h3>Total: {formatCurrency(cart.map(item => item.value * item.qty).reduce((prev, curr) => prev + curr, 0))}</h3>
                                 <button className='onCart-btn' onClick={() => {
-                                    Axios.post('http://localhost:3001/store/checkout', {
+                                    Axios.post('https://gp-barber.herokuapp.com/store/checkout', {
                                         items: cart
                                     }).then((res) => {
 

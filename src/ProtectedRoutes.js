@@ -10,7 +10,7 @@ async function UserAuth() {
     let isAuth = ''
     let userName = ''
 
-    await Axios.get('http://localhost:3001/').then((res) => {
+    await Axios.get('https://gp-barber.herokuapp.com/').then((res) => {
         isAuth = res.data.is
         userName = res.data.username
     })

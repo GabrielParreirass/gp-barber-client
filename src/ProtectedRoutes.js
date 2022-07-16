@@ -38,14 +38,14 @@ function ProtectedRoutes() {
         return (<BarberHome />)
     } else if (auth === 'user') {
         let url = window.location.href
-        if(url === 'http://localhost:3000/home'){
+        if(url === 'https://musical-sawine-3744d0.netlify.app/home'){
             console.log('home')
             return (<HomePage name={user} />)
-        }else if (url.includes('http://localhost:3000/home/profiles/')){
+        }else if (url.includes('https://musical-sawine-3744d0.netlify.app/home/profiles/')){
             console.log('profile')
             return(<Profile></Profile>)
         }
-        else if( url === 'http://localhost:3000/store'){
+        else if( url === 'https://musical-sawine-3744d0.netlify.app/store'){
             return(<Store></Store>)
         }
         else{
